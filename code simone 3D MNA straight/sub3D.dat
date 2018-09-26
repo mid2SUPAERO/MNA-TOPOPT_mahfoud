@@ -1,0 +1,1683 @@
+1
+
+   Abaqus 6.14-1                                  Date 24-mars-2017   Time 11:00:43
+   For use at INSA TOULOUSE under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes Simulia Corp.
+                                 Rising Sun Mills
+                                 166 Valley Street
+                           Providence, RI 02909-2499, USA
+ 
+
+
+                   Available for internal use at INSA TOULOUSE. 
+                   The Abaqus Online Support System is accessible
+                   through the "My Support" section of the SIMULIA
+                   Home Page at http://www.simulia.com.
+
+                   Support policies for academic licenses are described
+                   on the SIMULIA web site at
+                   http://www.3ds.com/products/simulia/academics/
+ 
+                          On machine DMSME-CONIGLIO 
+                          you are authorized to run
+                          Abaqus/Standard until 31-Dec-2017
+
+                          Your site id is: 200000000023279 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                    Abaqus 6.14-1                        * 
+                *                                                         * 
+                *          BUILD ID: 2014_06_05-00.11.02 134264           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using release 6.14 manuals    * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *   This program may not be used for commercial purposes  * 
+                *           without payment of a commercial fee.          * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *System
+  *Node
+  *Element, type=S4R
+  *Nset, nset="FAN casing-1_Set-1", generate
+  *Elset, elset="FAN casing-1_Set-1", generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=ROTOR-1_Set-1, generate
+  *Elset, elset=ROTOR-1_Set-1, generate
+  *Nset, nset=ROTOR-1_Set-2, generate
+  *Elset, elset=ROTOR-1_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1_Set-1, generate
+  *Elset, elset=OGV-1_Set-1, generate
+  *Nset, nset=OGV-1_Set-2, generate
+  *Elset, elset=OGV-1_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-2_Set-1, generate
+  *Elset, elset=OGV-1-rad-2_Set-1, generate
+  *Nset, nset=OGV-1-rad-2_Set-2, generate
+  *Elset, elset=OGV-1-rad-2_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-3_Set-1, generate
+  *Elset, elset=OGV-1-rad-3_Set-1, generate
+  *Nset, nset=OGV-1-rad-3_Set-2, generate
+  *Elset, elset=OGV-1-rad-3_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-4_Set-1, generate
+  *Elset, elset=OGV-1-rad-4_Set-1, generate
+  *Nset, nset=OGV-1-rad-4_Set-2, generate
+  *Elset, elset=OGV-1-rad-4_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-5_Set-1, generate
+  *Elset, elset=OGV-1-rad-5_Set-1, generate
+  *Nset, nset=OGV-1-rad-5_Set-2, generate
+  *Elset, elset=OGV-1-rad-5_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-6_Set-1, generate
+  *Elset, elset=OGV-1-rad-6_Set-1, generate
+  *Nset, nset=OGV-1-rad-6_Set-2, generate
+  *Elset, elset=OGV-1-rad-6_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-7_Set-1, generate
+  *Elset, elset=OGV-1-rad-7_Set-1, generate
+  *Nset, nset=OGV-1-rad-7_Set-2, generate
+  *Elset, elset=OGV-1-rad-7_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-8_Set-1, generate
+  *Elset, elset=OGV-1-rad-8_Set-1, generate
+  *Nset, nset=OGV-1-rad-8_Set-2, generate
+  *Elset, elset=OGV-1-rad-8_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-9_Set-1, generate
+  *Elset, elset=OGV-1-rad-9_Set-1, generate
+  *Nset, nset=OGV-1-rad-9_Set-2, generate
+  *Elset, elset=OGV-1-rad-9_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-10_Set-1, generate
+  *Elset, elset=OGV-1-rad-10_Set-1, generate
+  *Nset, nset=OGV-1-rad-10_Set-2, generate
+  *Elset, elset=OGV-1-rad-10_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-11_Set-1, generate
+  *Elset, elset=OGV-1-rad-11_Set-1, generate
+  *Nset, nset=OGV-1-rad-11_Set-2, generate
+  *Elset, elset=OGV-1-rad-11_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-12_Set-1, generate
+  *Elset, elset=OGV-1-rad-12_Set-1, generate
+  *Nset, nset=OGV-1-rad-12_Set-2, generate
+  *Elset, elset=OGV-1-rad-12_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-13_Set-1, generate
+  *Elset, elset=OGV-1-rad-13_Set-1, generate
+  *Nset, nset=OGV-1-rad-13_Set-2, generate
+  *Elset, elset=OGV-1-rad-13_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-14_Set-1, generate
+  *Elset, elset=OGV-1-rad-14_Set-1, generate
+  *Nset, nset=OGV-1-rad-14_Set-2, generate
+  *Elset, elset=OGV-1-rad-14_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-15_Set-1, generate
+  *Elset, elset=OGV-1-rad-15_Set-1, generate
+  *Nset, nset=OGV-1-rad-15_Set-2, generate
+  *Elset, elset=OGV-1-rad-15_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-16_Set-1, generate
+  *Elset, elset=OGV-1-rad-16_Set-1, generate
+  *Nset, nset=OGV-1-rad-16_Set-2, generate
+  *Elset, elset=OGV-1-rad-16_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-17_Set-1, generate
+  *Elset, elset=OGV-1-rad-17_Set-1, generate
+  *Nset, nset=OGV-1-rad-17_Set-2, generate
+  *Elset, elset=OGV-1-rad-17_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-18_Set-1, generate
+  *Elset, elset=OGV-1-rad-18_Set-1, generate
+  *Nset, nset=OGV-1-rad-18_Set-2, generate
+  *Elset, elset=OGV-1-rad-18_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-19_Set-1, generate
+  *Elset, elset=OGV-1-rad-19_Set-1, generate
+  *Nset, nset=OGV-1-rad-19_Set-2, generate
+  *Elset, elset=OGV-1-rad-19_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-20_Set-1, generate
+  *Elset, elset=OGV-1-rad-20_Set-1, generate
+  *Nset, nset=OGV-1-rad-20_Set-2, generate
+  *Elset, elset=OGV-1-rad-20_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-21_Set-1, generate
+  *Elset, elset=OGV-1-rad-21_Set-1, generate
+  *Nset, nset=OGV-1-rad-21_Set-2, generate
+  *Elset, elset=OGV-1-rad-21_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-22_Set-1, generate
+  *Elset, elset=OGV-1-rad-22_Set-1, generate
+  *Nset, nset=OGV-1-rad-22_Set-2, generate
+  *Elset, elset=OGV-1-rad-22_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-23_Set-1, generate
+  *Elset, elset=OGV-1-rad-23_Set-1, generate
+  *Nset, nset=OGV-1-rad-23_Set-2, generate
+  *Elset, elset=OGV-1-rad-23_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-24_Set-1, generate
+  *Elset, elset=OGV-1-rad-24_Set-1, generate
+  *Nset, nset=OGV-1-rad-24_Set-2, generate
+  *Elset, elset=OGV-1-rad-24_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-25_Set-1, generate
+  *Elset, elset=OGV-1-rad-25_Set-1, generate
+  *Nset, nset=OGV-1-rad-25_Set-2, generate
+  *Elset, elset=OGV-1-rad-25_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-26_Set-1, generate
+  *Elset, elset=OGV-1-rad-26_Set-1, generate
+  *Nset, nset=OGV-1-rad-26_Set-2, generate
+  *Elset, elset=OGV-1-rad-26_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-27_Set-1, generate
+  *Elset, elset=OGV-1-rad-27_Set-1, generate
+  *Nset, nset=OGV-1-rad-27_Set-2, generate
+  *Elset, elset=OGV-1-rad-27_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-28_Set-1, generate
+  *Elset, elset=OGV-1-rad-28_Set-1, generate
+  *Nset, nset=OGV-1-rad-28_Set-2, generate
+  *Elset, elset=OGV-1-rad-28_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-29_Set-1, generate
+  *Elset, elset=OGV-1-rad-29_Set-1, generate
+  *Nset, nset=OGV-1-rad-29_Set-2, generate
+  *Elset, elset=OGV-1-rad-29_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-30_Set-1, generate
+  *Elset, elset=OGV-1-rad-30_Set-1, generate
+  *Nset, nset=OGV-1-rad-30_Set-2, generate
+  *Elset, elset=OGV-1-rad-30_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-31_Set-1, generate
+  *Elset, elset=OGV-1-rad-31_Set-1, generate
+  *Nset, nset=OGV-1-rad-31_Set-2, generate
+  *Elset, elset=OGV-1-rad-31_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-32_Set-1, generate
+  *Elset, elset=OGV-1-rad-32_Set-1, generate
+  *Nset, nset=OGV-1-rad-32_Set-2, generate
+  *Elset, elset=OGV-1-rad-32_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-33_Set-1, generate
+  *Elset, elset=OGV-1-rad-33_Set-1, generate
+  *Nset, nset=OGV-1-rad-33_Set-2, generate
+  *Elset, elset=OGV-1-rad-33_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-34_Set-1, generate
+  *Elset, elset=OGV-1-rad-34_Set-1, generate
+  *Nset, nset=OGV-1-rad-34_Set-2, generate
+  *Elset, elset=OGV-1-rad-34_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-35_Set-1, generate
+  *Elset, elset=OGV-1-rad-35_Set-1, generate
+  *Nset, nset=OGV-1-rad-35_Set-2, generate
+  *Elset, elset=OGV-1-rad-35_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-36_Set-1, generate
+  *Elset, elset=OGV-1-rad-36_Set-1, generate
+  *Nset, nset=OGV-1-rad-36_Set-2, generate
+  *Elset, elset=OGV-1-rad-36_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-37_Set-1, generate
+  *Elset, elset=OGV-1-rad-37_Set-1, generate
+  *Nset, nset=OGV-1-rad-37_Set-2, generate
+  *Elset, elset=OGV-1-rad-37_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-38_Set-1, generate
+  *Elset, elset=OGV-1-rad-38_Set-1, generate
+  *Nset, nset=OGV-1-rad-38_Set-2, generate
+  *Elset, elset=OGV-1-rad-38_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-39_Set-1, generate
+  *Elset, elset=OGV-1-rad-39_Set-1, generate
+  *Nset, nset=OGV-1-rad-39_Set-2, generate
+  *Elset, elset=OGV-1-rad-39_Set-2, generate
+  *System
+  *Node
+  *Element, type=B31
+  *Nset, nset=OGV-1-rad-40_Set-1, generate
+  *Elset, elset=OGV-1-rad-40_Set-1, generate
+  *Nset, nset=OGV-1-rad-40_Set-2, generate
+  *Elset, elset=OGV-1-rad-40_Set-2, generate
+  *System
+  *Node
+  *Element, type=S4R
+  *Nset, nset=core-casing-1_Set-1
+  *Elset, elset=core-casing-1_Set-1
+  *Nset, nset=core-casing-1_Set-2
+  *Elset, elset=core-casing-1_Set-2
+  *Nset, nset=core-casing-1_Set-3
+  *Elset, elset=core-casing-1_Set-3
+  *Nset, nset=core-casing-1_Set-4
+  *Elset, elset=core-casing-1_Set-4
+  *Nset, nset=core-casing-1_Set-6
+  *Elset, elset=core-casing-1_Set-6
+  *Nset, nset=core-casing-1_Set-7
+  *Elset, elset=core-casing-1_Set-7
+  *Elset, elset=core-casing-1__I3
+  *System
+  *Node
+  *Node
+  *Node
+  *Node
+  *Node
+  *Node
+  *Node
+
+ ***NOTE: DUE TO EXCESSIVE REPORTING, THE ECHO OF THE *NODE OPTION IS BEING 
+          SUPPRESSED.
+  *Nset, nset="Air intake force point"
+  *Nset, nset="FAN CASING"
+  *Elset, elset="FAN CASING"
+  *Nset, nset="FAN CENTER"
+  *Nset, nset="HPC1 CASING"
+  *Elset, elset="HPC1 CASING"
+  *Nset, nset="HPC1 CENTER"
+  *Nset, nset="HPC2 CASING"
+  *Elset, elset="HPC2 CASING"
+  *Nset, nset="HPC2 CENTER"
+  *Nset, nset="HPC3 CASING"
+  *Elset, elset="HPC3 CASING"
+  *Nset, nset="HPC3 CENTER"
+  *Nset, nset="HPC4 CASING"
+  *Elset, elset="HPC4 CASING"
+  *Nset, nset="HPC4 CENTER"
+  *Nset, nset="HPC5 CASING"
+  *Elset, elset="HPC5 CASING"
+  *Nset, nset="HPC5 CENTER"
+  *Nset, nset="HPC6 CASING"
+  *Elset, elset="HPC6 CASING"
+  *Nset, nset="HPC6 CENTER"
+  *Nset, nset="HPC7 CASING"
+  *Elset, elset="HPC7 CASING"
+  *Nset, nset="HPC7 CENTER"
+  *Nset, nset="HPC8 CASING"
+  *Elset, elset="HPC8 CASING"
+  *Nset, nset="HPC8 CENTER"
+  *Nset, nset="HPC9 CASING"
+  *Elset, elset="HPC9 CASING"
+  *Nset, nset="HPC9 CENTER"
+  *Nset, nset="HPC10 CASING"
+  *Elset, elset="HPC10 CASING"
+  *Nset, nset="HPC10 CENTER"
+  *Nset, nset="HPT1 CASING"
+  *Elset, elset="HPT1 CASING"
+  *Nset, nset="HPT1 CENTER"
+  *Nset, nset="HPT2 CASING"
+  *Elset, elset="HPT2 CASING"
+  *Nset, nset="HPT2 CENTER"
+  *Nset, nset="INTERCASE MASTER"
+  *Nset, nset="IPC1 CASING"
+  *Elset, elset="IPC1 CASING"
+  *Nset, nset="IPC1 CENTER"
+  *Nset, nset="IPC2 CASING"
+  *Elset, elset="IPC2 CASING"
+  *Nset, nset="IPC2 CENTER"
+  *Nset, nset="IPC3 CASING"
+  *Elset, elset="IPC3 CASING"
+  *Nset, nset="IPC3 CENTER"
+  *Nset, nset="IPT1 CASING"
+  *Elset, elset="IPT1 CASING"
+  *Nset, nset="IPT1 CENTER"
+  *Nset, nset="IPT2 CASING"
+  *Elset, elset="IPT2 CASING"
+  *Nset, nset="IPT2 CENTER"
+  *Nset, nset="IPT3 CASING"
+  *Elset, elset="IPT3 CASING"
+  *Nset, nset="IPT3 CENTER"
+  *Nset, nset="IPT4 CASING"
+  *Elset, elset="IPT4 CASING"
+  *Nset, nset="IPT4 CENTER"
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Nset, nset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Elset, elset="OGV ALL", generate
+  *Nset, nset=RP-6
+  *Nset, nset="Roll bearing hp ip slave"
+  *Elset, elset="Roll bearing hp ip slave"
+  *Nset, nset=Set-40
+  *Nset, nset=Set-41
+  *Nset, nset=Set-42
+  *Nset, nset=Set-43
+  *Nset, nset=Set-44
+  *Nset, nset=Set-45
+  *Nset, nset=Set-46
+  *Nset, nset=Set-47
+  *Nset, nset=Set-48
+  *Nset, nset=Set-50
+  *Nset, nset=Set-116
+  *Nset, nset=Set-117
+  *Nset, nset=Set-121
+  *Nset, nset=Set-122
+  *Nset, nset=Set-123
+  *Nset, nset=Set-161
+  *Nset, nset=Set-163
+  *Nset, nset=Set-164
+  *Nset, nset=Set-165
+  *Nset, nset=Set-168
+  *Nset, nset="hp/ip master roller bearing"
+  *Nset, nset="intercase slave"
+  *Nset, nset="intercase slave"
+  *Elset, elset="intercase slave"
+  *Nset, nset=interface
+  *Elset, elset=interface
+  *Nset, nset=interface_full
+  *Elset, elset=interface_full
+  *Nset, nset=m_Set-2
+  *Nset, nset=m_Set-7
+  *Nset, nset=m_Set-30
+  *Nset, nset=m_Set-32
+  *Nset, nset=m_Set-34
+  *Nset, nset=m_Set-36
+  *Nset, nset=m_Set-38
+  *Nset, nset=m_Set-112
+  *Nset, nset=m_Set-114
+  *Nset, nset=m_Set-118
+  *Nset, nset=m_Set-119
+  *Nset, nset=m_Set-120
+  *Nset, nset=m_Set-147
+  *Nset, nset=m_Set-148
+  *Nset, nset=m_Set-149
+  *Nset, nset=m_Set-150
+  *Nset, nset=m_Set-151
+  *Nset, nset=m_Set-152
+  *Nset, nset=m_Set-159
+  *Nset, nset=m_Set-166
+  *Nset, nset=output_tip
+  *Nset, nset=output_tip
+  *Nset, nset=output_tip
+  *Elset, elset=output_tip
+  *Elset, elset=output_tip
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Nset, nset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Elset, elset=s_Set-1, generate
+  *Nset, nset=s_Set-26
+  *Elset, elset=s_Set-26
+  *Nset, nset=s_Set-63
+  *Elset, elset=s_Set-63
+  *Nset, nset=s_Set-64
+  *Elset, elset=s_Set-64
+  *Nset, nset=s_Set-65
+  *Elset, elset=s_Set-65
+  *Nset, nset=s_Set-66
+  *Elset, elset=s_Set-66
+  *Nset, nset=s_Set-67
+  *Elset, elset=s_Set-67
+  *Nset, nset=s_Set-68
+  *Elset, elset=s_Set-68
+  *Nset, nset=s_Set-77
+  *Elset, elset=s_Set-77
+  *Nset, nset=s_Set-112
+  *Elset, elset=s_Set-112
+  *Nset, nset=s_Set-114
+  *Elset, elset=s_Set-114
+  *Nset, nset=s_Set-172
+  *Elset, elset=s_Set-172
+  *Nset, nset=s_Set-173
+  *Elset, elset=s_Set-173
+  *Nset, nset=s_Set-176
+  *Elset, elset=s_Set-176
+  *Nset, nset="tail master"
+  *Nset, nset="tail roller slave"
+  *Nset, nset="tail roller slave", generate
+  *Elset, elset="tail roller slave"
+  *Nset, nset="thrust casing distribution"
+  *Elset, elset="thrust casing distribution"
+  *Elset, elset=_m_Surf-1_SPOS
+  *Elset, elset=_m_Surf-7_SPOS
+  *Elset, elset=_m_Surf-8_, generate
+  *Elset, elset=_m_Surf-8_SNEG
+  *Elset, elset=_s_Surf-5_SNEG
+  *Elset, elset=_s_Surf-7_SNEG
+  *Elset, elset=_s_Surf-8_SNEG
+  *Elset, elset=_s_Surf-9_SNEG
+  *Element, type=MASS, elset="Set-116_Mass FAN_MASS_"
+  *Element, type=ROTARYI, elset="Set-116_Mass FAN_ROTI_"
+  *Element, type=MASS, elset="Set-117_Mass torque box_MASS_"
+  *Element, type=ROTARYI, elset="Set-117_Mass torque box_ROTI_"
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+  *Surface, type=ELEMENT, name=m_Surf-1
+  *Surface, type=ELEMENT, name=m_Surf-7
+  *Surface, type=ELEMENT, name=m_Surf-8
+  *Surface, type=ELEMENT, name=s_Surf-5
+  *Surface, type=ELEMENT, name=s_Surf-7
+  *Surface, type=ELEMENT, name=s_Surf-8
+  *Surface, type=ELEMENT, name=s_Surf-9
+  *Surface, type=NODE, name="OGV ALL_CNS_"
+  *Surface, type=NODE, name=s_Set-172_CNS_
+  *Surface, type=NODE, name=s_Set-77_CNS_
+  *Surface, type=NODE, name="intercase slave_CNS_"
+  *Surface, type=NODE, name="Roll bearing hp ip slave_CNS_"
+  *Surface, type=NODE, name="tail roller slave_CNS_"
+  *Surface, type=NODE, name=s_Set-26_CNS_
+  *Surface, type=NODE, name=s_Set-63_CNS_
+  *Surface, type=NODE, name=s_Set-64_CNS_
+  *Surface, type=NODE, name=s_Set-65_CNS_
+  *Surface, type=NODE, name=s_Set-66_CNS_
+  *Surface, type=NODE, name=s_Set-67_CNS_
+  *Surface, type=NODE, name=s_Set-68_CNS_
+  *Surface, type=NODE, name=s_Set-112_CNS_
+  *Surface, type=NODE, name=s_Set-114_CNS_
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+  *Surface, type=ELEMENT, name=m_Surf-1
+  *Surface, type=ELEMENT, name=m_Surf-7
+  *Surface, type=ELEMENT, name=m_Surf-8
+  *Surface, type=ELEMENT, name=s_Surf-5
+  *Surface, type=ELEMENT, name=s_Surf-7
+  *Surface, type=ELEMENT, name=s_Surf-8
+
+ ***NOTE: DUE TO EXCESSIVE REPORTING, THE ECHO OF THE *SURFACE OPTION IS BEING 
+          SUPPRESSED.
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+  *Coupling, constraint name=Constraint-4, ref node=m_Set-7, surface=s_Set-77_CNS_
+  *Coupling, constraint name=Constraint-5, ref node="INTERCASE MASTER", surface="intercase slave_CNS_"
+  *Coupling, constraint name=Constraint-6, ref node="hp/ip master roller bearing", surface="Roll bearing hp ip slave_CNS_"
+  *Coupling, constraint name=Constraint-7, ref node="tail master", surface="tail roller slave_CNS_"
+  *Coupling, constraint name=Constraint-8, ref node="Air intake force point", surface=s_Set-26_CNS_
+  *Coupling, constraint name=Constraint-9, ref node=RP-6, surface=s_Set-63_CNS_
+  *Coupling, constraint name=Constraint-10, ref node=m_Set-30, surface=s_Set-64_CNS_
+  *Coupling, constraint name=Constraint-11, ref node=m_Set-32, surface=s_Set-65_CNS_
+  *Coupling, constraint name=Constraint-12, ref node=m_Set-34, surface=s_Set-66_CNS_
+  *Coupling, constraint name=Constraint-13, ref node=m_Set-36, surface=s_Set-67_CNS_
+  *Coupling, constraint name=Constraint-14, ref node=m_Set-38, surface=s_Set-68_CNS_
+  *Coupling, constraint name=Constraint-16, ref node=m_Set-112, surface=s_Set-112_CNS_
+  *Coupling, constraint name=Constraint-17, ref node=m_Set-114, surface=s_Set-114_CNS_
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+  *Shell Section, elset="FAN casing-1_Set-1", material=Titanium
+  *Shell Section, elset=core-casing-1_Set-4, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-3, material=INCONEL
+  *Shell Section, elset=core-casing-1__I3, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-1, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-7, material=INCONEL
+  *Beam General Section, elset=ROTOR-1_Set-1, density=4.5e-09, section=GENERAL
+  *Beam General Section, elset=OGV-1_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-2_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-3_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-4_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-5_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-6_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-7_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-8_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-9_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-10_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-11_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-12_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-13_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-14_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-15_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-16_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-17_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-18_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-19_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-20_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-21_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-22_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-23_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-24_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-25_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-26_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-27_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-28_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-29_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-30_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-31_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-32_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-33_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-34_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-35_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-36_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-37_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-38_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-39_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-40_Set-1, section=GENERAL
+  *Coupling, constraint name=Constraint-4, ref node=m_Set-7, surface=s_Set-77_CNS_
+  *Coupling, constraint name=Constraint-5, ref node="INTERCASE MASTER", surface="intercase slave_CNS_"
+  *Coupling, constraint name=Constraint-6, ref node="hp/ip master roller bearing", surface="Roll bearing hp ip slave_CNS_"
+  *Coupling, constraint name=Constraint-7, ref node="tail master", surface="tail roller slave_CNS_"
+  *Coupling, constraint name=Constraint-8, ref node="Air intake force point", surface=s_Set-26_CNS_
+  *Coupling, constraint name=Constraint-9, ref node=RP-6, surface=s_Set-63_CNS_
+  *Coupling, constraint name=Constraint-10, ref node=m_Set-30, surface=s_Set-64_CNS_
+  *Coupling, constraint name=Constraint-11, ref node=m_Set-32, surface=s_Set-65_CNS_
+  *Coupling, constraint name=Constraint-12, ref node=m_Set-34, surface=s_Set-66_CNS_
+  *Coupling, constraint name=Constraint-13, ref node=m_Set-36, surface=s_Set-67_CNS_
+  *Coupling, constraint name=Constraint-14, ref node=m_Set-38, surface=s_Set-68_CNS_
+  *Coupling, constraint name=Constraint-16, ref node=m_Set-112, surface=s_Set-112_CNS_
+  *Coupling, constraint name=Constraint-17, ref node=m_Set-114, surface=s_Set-114_CNS_
+  *Coupling, constraint name=Constraint-4, ref node=m_Set-7, surface=s_Set-77_CNS_
+  *Kinematic
+
+ ***WARNING: WHENEVER A TRANSLATION (ROTATION) DOF AT A NODE IS CONSTRAINED BY 
+             A KINEMATIC COUPLING DEFINITION THE TRANSLATION (ROTATION) DOFS 
+             FOR THAT NODE CANNOT BE INCLUDED IN ANY OTHER CONSTRAINT INCLUDING 
+             MPCS, RIGID BODIES, ETC.
+  *Coupling, constraint name=Constraint-5, ref node="INTERCASE MASTER", surface="intercase slave_CNS_"
+  *Kinematic
+  *Coupling, constraint name=Constraint-6, ref node="hp/ip master roller bearing", surface="Roll bearing hp ip slave_CNS_"
+  *Kinematic
+  *Coupling, constraint name=Constraint-7, ref node="tail master", surface="tail roller slave_CNS_"
+  *Kinematic
+  *Coupling, constraint name=Constraint-8, ref node="Air intake force point", surface=s_Set-26_CNS_
+  *Coupling, constraint name=Constraint-9, ref node=RP-6, surface=s_Set-63_CNS_
+  *Coupling, constraint name=Constraint-10, ref node=m_Set-30, surface=s_Set-64_CNS_
+  *Coupling, constraint name=Constraint-11, ref node=m_Set-32, surface=s_Set-65_CNS_
+  *Coupling, constraint name=Constraint-12, ref node=m_Set-34, surface=s_Set-66_CNS_
+  *Coupling, constraint name=Constraint-13, ref node=m_Set-36, surface=s_Set-67_CNS_
+  *Coupling, constraint name=Constraint-14, ref node=m_Set-38, surface=s_Set-68_CNS_
+  *Coupling, constraint name=Constraint-16, ref node=m_Set-112, surface=s_Set-112_CNS_
+  *Coupling, constraint name=Constraint-17, ref node=m_Set-114, surface=s_Set-114_CNS_
+  *Coupling, constraint name=Constraint-4, ref node=m_Set-7, surface=s_Set-77_CNS_
+  *Coupling, constraint name=Constraint-5, ref node="INTERCASE MASTER", surface="intercase slave_CNS_"
+  *Coupling, constraint name=Constraint-6, ref node="hp/ip master roller bearing", surface="Roll bearing hp ip slave_CNS_"
+  *Coupling, constraint name=Constraint-7, ref node="tail master", surface="tail roller slave_CNS_"
+  *Coupling, constraint name=Constraint-8, ref node="Air intake force point", surface=s_Set-26_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-9, ref node=RP-6, surface=s_Set-63_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-10, ref node=m_Set-30, surface=s_Set-64_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-11, ref node=m_Set-32, surface=s_Set-65_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-12, ref node=m_Set-34, surface=s_Set-66_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-13, ref node=m_Set-36, surface=s_Set-67_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-14, ref node=m_Set-38, surface=s_Set-68_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-16, ref node=m_Set-112, surface=s_Set-112_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Coupling, constraint name=Constraint-17, ref node=m_Set-114, surface=s_Set-114_CNS_
+  *Distributing, weighting method=UNIFORM, coupling=STRUCTURAL
+
+ ***WARNING: A DISTRIBUTED COUPLING DEFINITION WITH COUPLING=STRUCTURAL WILL 
+             IGNORE THE STRUCTURAL COUPLING AS THE SURFACE USED IN THE 
+             DEFINITION IS EITHER NODE-BASED OR THE REFERENCE NODE DOES PROJECT 
+             ONTO THE SURFACE.
+  *Material, name=INCONEL
+  *Density
+  *Elastic
+  *Material, name=Titanium
+  *Density
+  *Elastic
+  *Beam General Section, elset=ROTOR-1_Set-1, density=4.5e-09, section=GENERAL
+  *Beam General Section, elset=OGV-1_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-2_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-3_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-4_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-5_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-6_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-7_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-8_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-9_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-10_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-11_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-12_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-13_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-14_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-15_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-16_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-17_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-18_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-19_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-20_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-21_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-22_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-23_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-24_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-25_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-26_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-27_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-28_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-29_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-30_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-31_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-32_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-33_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-34_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-35_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-36_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-37_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-38_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-39_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-40_Set-1, section=GENERAL
+  *Mass, elset="Set-116_Mass FAN_MASS_"
+  *Mass, elset="Set-117_Mass torque box_MASS_"
+  *Rotary Inertia, elset="Set-116_Mass FAN_ROTI_"
+  *Rotary Inertia, elset="Set-117_Mass torque box_ROTI_"
+  *Shell Section, elset="FAN casing-1_Set-1", material=Titanium
+  *Shell Section, elset=core-casing-1_Set-4, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-3, material=INCONEL
+  *Shell Section, elset=core-casing-1__I3, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-1, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-7, material=INCONEL
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+
+ ***WARNING: SLAVE SURFACE S_SET-172_CNS_ IS A NODE-BASED SURFACE USED WITH 
+             SURFACE TO SURFACE APPROACH.  IN ORDER TO OBTAIN IMPROVED STRESS 
+             ACCURACY WITH THIS APPROACH, AN ELEMENT-BASED SURFACE SHOULD BE 
+             USED INSTEAD.
+
+ ***WARNING: IF SIGNIFICANT CLEARANCE/OVERCLOSURE EXISTS BETWEEN SURFACE PAIR 
+             (S_SET-172_CNS_,OGV ALL_CNS_) AND THE MASTER SURFACE DOES NOT HAVE 
+             ROTATIONAL DEGREES OF FREEDOM, ADJUSTMENT IS RECOMMENDED FOR 
+             CORRECT ENFORCEMENT OF THE TIE CONSTRAINT
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+
+ ***WARNING: IF SIGNIFICANT CLEARANCE/OVERCLOSURE EXISTS BETWEEN SURFACE PAIR 
+             (M_SURF-7,OGV ALL_CNS_) AND THE MASTER SURFACE DOES NOT HAVE 
+             ROTATIONAL DEGREES OF FREEDOM, ADJUSTMENT IS RECOMMENDED FOR 
+             CORRECT ENFORCEMENT OF THE TIE CONSTRAINT
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+
+ ***WARNING: SLAVE NODE 1 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 2 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 4 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 5 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 8 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 11 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 12 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 14 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 16 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 18 WILL NOT BE TIED TO THE MASTER SURFACE OGV ALL_CNS_. 
+             THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE POSITION 
+             TOLERANCE VALUE.
+
+ ***NOTE: THE ABOVE WARNING MESSAGE IS BEING SUPPRESSED DUE TO EXCESSIVE 
+          REPORTING.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+
+ ***WARNING: SLAVE NODE 6010 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6011 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6014 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6018 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6019 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6021 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6033 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6034 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6035 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6038 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***WARNING: SLAVE NODE 6039 WILL NOT BE TIED TO THE MASTER SURFACE OGV 
+             ALL_CNS_. THE DISTANCE FROM THE MASTER SURFACE IS GREATER THAN THE 
+             POSITION TOLERANCE VALUE.
+
+ ***NOTE: THE ABOVE WARNING MESSAGE IS BEING SUPPRESSED DUE TO EXCESSIVE 
+          REPORTING.
+  *Beam General Section, elset=ROTOR-1_Set-1, density=4.5e-09, section=GENERAL
+  *Beam General Section, elset=OGV-1_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-2_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-3_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-4_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-5_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-6_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-7_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-8_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-9_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-10_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-11_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-12_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-13_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-14_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-15_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-16_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-17_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-18_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-19_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-20_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-21_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-22_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-23_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-24_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-25_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-26_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-27_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-28_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-29_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-30_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-31_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-32_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-33_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-34_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-35_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-36_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-37_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-38_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-39_Set-1, section=GENERAL
+  *Beam General Section, elset=OGV-1-rad-40_Set-1, section=GENERAL
+  *Shell Section, elset="FAN casing-1_Set-1", material=Titanium
+  *Shell Section, elset=core-casing-1_Set-4, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-3, material=INCONEL
+  *Shell Section, elset=core-casing-1__I3, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-1, material=INCONEL
+  *Shell Section, elset=core-casing-1_Set-7, material=INCONEL
+  *Mass, elset="Set-116_Mass FAN_MASS_"
+  *Mass, elset="Set-117_Mass torque box_MASS_"
+  *Rotary Inertia, elset="Set-116_Mass FAN_ROTI_"
+  *Rotary Inertia, elset="Set-117_Mass torque box_ROTI_"
+  *Tie, name=Constraint-1, adjust=no, position tolerance=1.
+  *Tie, name=Constraint-2, adjust=no, position tolerance=1.
+
+ ***WARNING: 3484 nodes are either missing intersection with their respective 
+             master surface or are outside the adjust zone. The nodes have been 
+             identified in node set WarnNodeMissMasterIntersect.
+
+ ***WARNING: MPCS (EXTERNAL or INTERNAL, including those generated from rigid 
+             body definitions), KINEMATIC COUPLINGS, AND/OR EQUATIONS WILL 
+             ACTIVATE ADDITIONAL DEGREES OF FREEDOM
+  *Step, name=Step-2, nlgeom=NO
+  *Step, name=Step-2, nlgeom=NO
+
+ ***WARNING: NODE SET M_SET-118 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-119 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-120 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-147 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-148 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-149 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-150 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-152 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-159 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-166 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET M_SET-151 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET SET-121 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET SET-122 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET SET-123 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET SET-161 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+
+ ***WARNING: NODE SET SET-168 HAS NO MEMBERS AND WILL BE IGNORED.  NODES 
+             DEFINED IN THIS SET MAY HAVE BEEN DELETED BECAUSE THEY WERE NOT 
+             CONNECTED TO ANY ELEMENTS.
+  *Step, name=Step-2, nlgeom=NO
+  *Substructure Generate, overwrite, type=Z1, recovery matrix=YES, nset=output_tip
+  *Retained Nodal Dofs
+  *Substructure Load Case, name=FX
+  *Dload
+  *Substructure Load Case, name=Fz
+  *Substructure Load Case, name=gravity
+  *Dload
+
+ ***NOTE: ALL ELEMENTS THAT HAVE MASS ARE COLLECTED IN ELEMENT SET 
+          _Whole_Model_Gravity_Elset FOR APPLICATION OF GRAVITY LOAD.
+  *SUBSTRUCTURE MATRIX OUTPUT,STIFFNESS=YES,SLOAD=YES,OUTPUT FILE=USER DEFINED,FILENAME=108SS,recovery matrix=YES
+  *End Step
+  *Step, name=Step-2, nlgeom=NO
+  *Substructure Generate, overwrite, type=Z1, recovery matrix=YES, nset=output_tip
+  *Damping Controls, structural=COMBINED, viscous=COMBINED
+  *Substructure Load Case, name=FX
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Cload
+  *Substructure Load Case, name=Fz
+  *Cload
+  *Substructure Load Case, name=gravity
+  *End Step
+  
+                               E L E M E N T   Q U A L I T Y  C H E C K S        
+  
+  
+ ***NOTES: DISTORTED ISOPARAMETRIC ELEMENTS: ANGLE BETWEEN ISOPARAMETRIC LINES 
+           IS LESS THAN 45 DEGREES OR GREATER THAN 135 DEGREES.
+  
+           TETRAHEDRAL QUALITY MEASURE: VOLUME OF TETRAHEDRON DIVIDED BY THE 
+           VOLUME OF EQUILATERAL TETRAHEDRON WITH SAME CIRCUMSPHERE RADIUS; 
+           0 FOR DEGENERATE TETRAHEDRON AND 1 FOR EQUILATERIAL TETRAHEDRON. IT 
+           IS RECOMMENDED THAT THE TETRAHEDRAL QUALITY MEASURE BE GREATER THAN 
+           0.02, THE MIN INTERIOR (DIHEDRAL) ANGLE BE GREATER THAN 10 DEGREES, 
+           AND THE MAX INTERIOR (DIHEDRAL) ANGLE BE LESS THAN 160 DEGREES. 
+  
+           MODIFIED TETRAHEDRAL QUALITY MEASURE: ANGLES BETWEEN THE TWO LINE 
+           SEGMENTS ON EACH EDGE; THE EDGES OF MODIFIED TETRAHEDRAL SHOULD BE 
+           AS STRAIGHT AS POSSIBLE. IT IS RECOMMENDED THAT THE ANGLE BETWEEN 
+           THE TWO LINE SEGMENTS ON EACH EDGE IS BETWEEN 160 AND 180 DEGREES. 
+  
+           TRIANGULAR QUALITY MEASURE: AREA OF TRIANGLE DIVIDED BY THE AREA OF 
+           EQUILATERAL TRIANGLE WITH SAME CIRCUMCIRCLE RADIUS; 0 FOR DEGENERATE 
+           TRIANGLE AND 1 FOR EQUILATERAL TRIANGLE. IT IS RECOMMENDED THAT THE
+           TRIANGULAR QUALITY MEASURE BE GREATER THAN 0.01, THE MIN INTERIOR 
+           ANGLE BE GREATER THAN 10 DEGREES, AND THE MAX INTERIOR ANGLE BE LESS 
+           THAN 160 DEGREES. 
+  
+           NODAL ADJUSTMENTS ARISING FROM CONTACT INTERACTIONS AND/OR TIE 
+           CONSTRAINTS CAN CAUSE SEVERE ELEMENT DISTORTION. IT MAY BE NECESSARY 
+           TO REMESH IN ORDER TO REDUCE THE AMOUNT OF ADJUSTMENT. 
+
+ ***WARNING: The aspect ratio for 228 elements exceeds 100 to 1. The elements 
+             have been identified in element set WarnElemAspectRatio.
+  
+ --------------------------------------------------------------------------------
+ Elements with large aspect ratio
+  
+  Element  Adjusted nodes 
+ --------- -------------- 
+      5323       NO       
+      5324       NO       
+      5359       NO       
+      5360       NO       
+      5382       NO       
+      5421       NO       
+      5454       NO       
+      5479       NO       
+      5498       NO       
+      5523       NO       
+      5546       NO       
+      5571       NO       
+      5590       NO       
+      5615       NO       
+      5640       NO       
+      5665       NO       
+      5680       NO       
+      5705       NO       
+      6036       NO       
+      6037       NO       
+      6038       NO       
+      6099       NO       
+      6100       NO       
+      6101       NO       
+      6102       NO       
+      6127       NO       
+      6153       NO       
+      6154       NO       
+      6155       NO       
+      6156       NO       
+      6178       NO       
+      6254       NO       
+      6255       NO       
+      6256       NO       
+      6257       NO       
+      6258       NO       
+      6259       NO       
+      6260       NO       
+      6261       NO       
+      6262       NO       
+      6263       NO       
+      6264       NO       
+      6265       NO       
+      6272       NO       
+      6307       NO       
+      6308       NO       
+      6309       NO       
+      6310       NO       
+      6311       NO       
+      6312       NO       
+      6313       NO       
+      6314       NO       
+      6315       NO       
+      6316       NO       
+      6317       NO       
+      6318       NO       
+      6319       NO       
+      6320       NO       
+      6321       NO       
+      6322       NO       
+      6323       NO       
+      6324       NO       
+      6325       NO       
+      6326       NO       
+      6327       NO       
+      6328       NO       
+      6329       NO       
+      6330       NO       
+      6331       NO       
+      6332       NO       
+      6333       NO       
+      6334       NO       
+      6335       NO       
+      6336       NO       
+      6337       NO       
+      6338       NO       
+      6339       NO       
+      6340       NO       
+      6341       NO       
+      6342       NO       
+      6343       NO       
+      6344       NO       
+      6345       NO       
+      6346       NO       
+      6347       NO       
+      6349       NO       
+      6356       NO       
+      6359       NO       
+      6360       NO       
+      6361       NO       
+      7822       NO       
+      7823       NO       
+      7824       NO       
+      7827       NO       
+      7828       NO       
+      7829       NO       
+      7830       NO       
+      7831       NO       
+      7832       NO       
+      7834       NO       
+      7835       NO       
+      7836       NO       
+      7837       NO       
+      7838       NO       
+      7839       NO       
+      7840       NO       
+      7841       NO       
+      7842       NO       
+      7843       NO       
+      7844       NO       
+      7845       NO       
+      7846       NO       
+      7847       NO       
+      7848       NO       
+      7849       NO       
+      7850       NO       
+      7851       NO       
+      7852       NO       
+      7853       NO       
+      7854       NO       
+      7855       NO       
+      7856       NO       
+      7857       NO       
+      7858       NO       
+      7859       NO       
+      7860       NO       
+      7907       NO       
+      7908       NO       
+      7909       NO       
+      7914       NO       
+      7916       NO       
+      7918       NO       
+      7919       NO       
+      7920       NO       
+      7922       NO       
+      8455       NO       
+     10017       NO       
+     10018       NO       
+     10019       NO       
+     10020       NO       
+     10021       NO       
+     10022       NO       
+     10023       NO       
+     10024       NO       
+     10025       NO       
+     10026       NO       
+     10033       NO       
+     10094       NO       
+     10095       NO       
+     10096       NO       
+     10097       NO       
+     10098       NO       
+     10099       NO       
+     10100       NO       
+     10101       NO       
+     10102       NO       
+     10103       NO       
+     10104       NO       
+     10105       NO       
+     10106       NO       
+     10107       NO       
+     10108       NO       
+     10109       NO       
+     10110       NO       
+     10111       NO       
+     10112       NO       
+     10113       NO       
+     10114       NO       
+     10115       NO       
+     10116       NO       
+     10117       NO       
+     10118       NO       
+     10119       NO       
+     10120       NO       
+     10121       NO       
+     10122       NO       
+     10123       NO       
+     10124       NO       
+     10139       NO       
+     10140       NO       
+     10185       NO       
+     10194       NO       
+     10195       NO       
+     10313       NO       
+     10314       NO       
+     10315       NO       
+     10353       NO       
+     10354       NO       
+     10355       NO       
+     10358       NO       
+     10359       NO       
+     10360       NO       
+     10361       NO       
+     10362       NO       
+     10363       NO       
+     10365       NO       
+     10366       NO       
+     10371       NO       
+     10372       NO       
+     10374       NO       
+     10376       NO       
+     10378       NO       
+     10381       NO       
+     10383       NO       
+     10385       NO       
+     10387       NO       
+     10390       NO       
+     10392       NO       
+     10393       NO       
+     10394       NO       
+     10395       NO       
+     10490       NO       
+     10491       NO       
+     10494       NO       
+     10507       NO       
+     10508       NO       
+     10509       NO       
+     10576       NO       
+     10577       NO       
+     10578       NO       
+     10579       NO       
+     10580       NO       
+     10581       NO       
+     10582       NO       
+     10583       NO       
+     10584       NO       
+     10622       NO       
+     10624       NO       
+  
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                 10656
+          NUMBER OF ELEMENTS DEFINED BY THE USER AND *TIE       10653
+          NUMBER OF NODES IS                                    12561
+          NUMBER OF NODES DEFINED BY THE USER                   10945
+          NUMBER OF INTERNAL NODES GENERATED BY THE PROGRAM      1616
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                67398
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.70000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.80000    
+       WALLCLOCK TIME (SEC) =          3
+1
+
+   Abaqus 6.14-1                                  Date 24-mars-2017   Time 11:00:46
+   For use at INSA TOULOUSE under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     S U B S T R U C T U R E  G E N E R A T E
+
+
+                                                                                          
+  SUBSTRUCTURE TYPE:    Z1                  
+  LIBRARY NAME:         sub3D                                                                           
+
+  NUMBER OF RETAINED NODAL DEGREES OF FREEDOM:   267
+  NUMBER OF RETAINED EIGENMODES              :     0
+  NUMBER OF SUBSTRUCTURE LOAD CASES          :     3
+
+  SUBSTRUCTURE STIFFNESS MATRIX WILL BE GENERATED
+  SUBSTRUCTURE RECOVERY MATRIX WILL BE GENERATED
+
+  SUBSTRUCTURE MASS MATRIX WILL NOT BE GENERATED
+  SUBSTRUCTURE VISCOUS DAMPING MATRIX WILL NOT BE GENERATED
+  SUBSTRUCTURE STRUCTURAL DAMPING MATRIX NOT WILL BE GENERATED
+
+
+
+                    TOTAL MASS OF MODEL
+
+                       17.55241    
+
+
+                    LOCATION OF THE CENTER OF MASS OF THE MODEL
+
+                       2337.804          9.4418845E-14     -5.2605790E-15
+
+
+                    MOMENTS OF INERTIA ABOUT THE ORIGIN
+                           I(XX)               I(YY)               I(ZZ)
+
+                       8962175.          1.3244973E+08      1.3244957E+08
+
+
+                    PRODUCTS OF INERTIA ABOUT THE ORIGIN
+                           I(XY)               I(XZ)               I(YZ)
+
+                     -6.2832379E-09      5.3000804E-10     -1.1572234E-03
+
+
+                    MOMENTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XX)               I(YY)               I(ZZ)
+
+                       8962175.          3.6520029E+07      3.6519866E+07
+
+
+                    PRODUCTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XY)               I(XZ)               I(YZ)
+
+                     -2.4088451E-09      3.1414488E-10     -1.1572234E-03
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1         1.25E+010               52                206
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+  
+                   S U B S T R U C T U R E   D I S K   S P A C E   E S T I M A T E
+  
+  
+ DISKSPACE REQUIRED BY THE TEMPORARY DATA IS  203.9 MBYTES
+  
+  
+ DISKSPACE REQUIRED BY THE PERSISTENT DATA IS   26.7 MBYTES
+  
+  
+ ESTIMATE OF THE TOTAL DISK SPACE REQUIRED IS  230.7 MBYTES
+  
+
+
+
+                                     S U B S T R U C T U R E   M A T R I X   O U T P U T
+
+
+ SUBSTRUCTURE MATRIX OUTPUT REQUESTS WILL BE PRINTED
+ TO FILE D:\Temp_Abaqus\108SS.mtx
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH     54 WARNING MESSAGES ON THE DAT FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   6.2000    
+       SYSTEM TIME (SEC)    =   1.1000    
+       TOTAL CPU TIME (SEC) =   7.3000    
+       WALLCLOCK TIME (SEC) =          9
