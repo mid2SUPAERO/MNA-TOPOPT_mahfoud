@@ -1,0 +1,12 @@
+Z_bc = zeros((nelx+1)*(nely+1),1) ;
+Z_l = zeros((nelx+1)*(nely+1),1) ;
+ind1 = find(F(:,1)) ; ind2 = find(F(:,2)) ;
+Z_bc(fixeddofs) = 1 ; 
+Z_l(floor(ind1/2)) = 1 ; 
+Z_l(floor(ind2/2)) = 1 ;
+Z_bc = reshape(Z_bc,nely+1,nelx+1) ;
+Z_l = reshape(Z_l,nely+1,nelx+1) ;
+figure ;
+surf(mesh.x,mesh.y,Z_bc) ; axis equal ;
+figure ;
+surf(mesh.x,mesh.y,Z_l) ; axis equal ;
